@@ -9,11 +9,6 @@ import { Router } from '@angular/router';
 })
 export class ExploreContainerComponent {
 
-  // @Input() name?: string;
-  constructor(private router: Router){}
-
-navigateToContact(){
-this.router.navigate(['/tabs/tab3'])
-}
+  @Input() name?: string;
 
 }
